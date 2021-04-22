@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    stream:
+      function:
+        bindings:
+          supplyTxn-out-0: txn_http_source
+#      bindings:
+#        supplyTxn-out-0:
+#          destination: txn_http_source

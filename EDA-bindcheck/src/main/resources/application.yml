@@ -1,0 +1,15 @@
+server:
+  port: 8082
+#spring:
+#  cloud:
+#    stream:
+#     bindings:
+#        listen-in-0:
+#          destination: outputjason
+
+#spring:
+#  cloud:
+#    stream:
+#     bindings:
+#        approved-out-0:
+#          destination: bindchecked_approved
